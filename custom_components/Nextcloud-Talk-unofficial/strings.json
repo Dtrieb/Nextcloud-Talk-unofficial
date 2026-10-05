@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Nextcloud Talk Einrichtung",
+        "description": "Gib deine Nextcloud Serverdaten und Zugangsdaten ein.",
+        "data": {
+          "url": "Server URL (z.B. https://cloud.example.com)",
+          "username": "Benutzername",
+          "password": "Passwort / App-Passwort"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zum Nextcloud Server fehlgeschlagen.",
+      "invalid_auth": "Ungültige Anmeldedaten (Benutzer/Passwort falsch).",
+      "unknown": "Unerwarteter Fehler aufgetreten."
+    },
+    "abort": {
+      "already_configured": "Diese Nextcloud-Instanz ist bereits konfiguriert."
+    }
+  }
+}

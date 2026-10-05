@@ -1,0 +1,11 @@
+{
+  "domain": "nextcloud_talk_unofficial",
+  "name": "Nextcloud Talk (unofficial)",
+  "codeowners": ["@Dtrieb"],
+  "config_flow": true,
+  "documentation": "https://github.com/Dtrieb/Nextcloud-Talk-unofficial",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/Dtrieb/Nextcloud-Talk-unofficial/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

@@ -1,0 +1,26 @@
+send_message:
+  name: Nachricht an Nextcloud Talk senden
+  description: Sendet eine Chat-Nachricht an einen bestimmten Nextcloud Talk Raum.
+  fields:
+    target:
+      name: Raum-Token
+      description: Das Token des Nextcloud Talk Chatraums aus der URL (z.B. a1b2c3d4).
+      required: true
+      example: "a1b2c3d4"
+      selector:
+        text:
+    message:
+      name: Nachricht
+      description: Der Inhalt der zu sendenden Nachricht.
+      required: true
+      example: "Die ist ein Test!"
+      selector:
+        text:
+          multiline: true
+    title:
+      name: Titel
+      description: Optionaler Titel vor der Nachricht.
+      required: false
+      example: "**Hinweis**"
+      selector:
+        text:
